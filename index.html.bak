@@ -241,25 +241,25 @@ img {vertical-align: middle;}
 </head>
 
 <body>
-<img src="C:\Users\amirh\OneDrive\Pictures\Camera Roll\amirlogo2.jpg" alt="logo" width="70" height="60">
- <a href="https://instagram.com/amrhzmi?igshid=YmMyMTA2M2Y="><img src="C:\Users\amirh\OneDrive\Pictures\Camera Roll\instabeige.jpg" alt="insta" width="70" height="60"></a>
- <a href="https://www.facebook.com/amir.hazmi.12?mibextid=LQQJ4d"><img src="C:\Users\amirh\OneDrive\Pictures\Camera Roll\facebook.jpg" alt="fb" width="70" height="60"></a>
+<img src="Camera Roll\amirlogo2.jpg" alt="logo" width="70" height="60">
+ <a href="https://instagram.com/amrhzmi?igshid=YmMyMTA2M2Y="><img src="Camera Roll\instabeige.jpg" alt="insta" width="70" height="60"></a>
+ <a href="https://www.facebook.com/amir.hazmi.12?mibextid=LQQJ4d"><img src="Camera Roll\facebook.jpg" alt="fb" width="70" height="60"></a>
  <div class="slideshow-container">
 <div class="mySlides fade">
   <div class="numbertext"></div>
-  <img src="C:\Users\amirh\OneDrive\Pictures\Camera Roll\pic1.jpg"alt="Profilepic" style="width:100%;height:100%">
+  <img src="Camera Roll\pic1.jpg"alt="Profilepic" style="width:100%;height:100%">
   <div class="text"></div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext"></div>
-  <img src="C:\Users\amirh\OneDrive\Pictures\Camera Roll\pic3.jpg" alt="pic 3" style="width:100%;height:100%">
+  <img src="Camera Roll\pic3.jpg" alt="pic 3" style="width:100%;height:100%">
   <div class="text"></div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext"></div>
-  <img src="C:\Users\amirh\OneDrive\Pictures\Camera Roll\pic2.jpg" alt="pic 2" style="width:100%;height:100%">
+  <img src="Camera Roll\pic2.jpg" alt="pic 2" style="width:100%;height:100%">
   <div class="text"></div>
 </div>
 
@@ -308,9 +308,9 @@ function showSlides() {
 <h2 style="background-color: transparent;text-align: center"><span style="color: black">"The Art"</span></h2>
  
 <div class="container"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="C:\Users\amirh\OneDrive\Pictures\Camera Roll\wallpaper.jpg" alt="stone" width ="1800"><p style="text-align: center"><a href="file:///C:/Users/amirh/OneDrive/Desktop/Biography.html">MORE ABOUT ME</a></p>
-    <a href="https://www.uitm.edu.my/index.php/en"><img src="C:\Users\amirh\OneDrive\Pictures\Camera Roll\uitmlogo.jpg" alt="insta" width="70" height="60" class="center"></a>
-	<a href="https://istudent.uitm.edu.my/index_isp.htm"><img src="C:\Users\amirh\OneDrive\Pictures\Camera Roll\istudent.jpg" alt="insta" width="120" height="60" class="center"></a>
-	<a href="https://fskm.uitm.edu.my/v5/index.php/en/"><img src="C:\Users\amirh\OneDrive\Pictures\Camera Roll\fskm.jpg" alt="insta" width="120" height="60" class="center"></a>
+    <a href="https://www.uitm.edu.my/index.php/en"><img src="Camera Roll\uitmlogo.jpg" alt="insta" width="70" height="60" class="center"></a>
+	<a href="https://istudent.uitm.edu.my/index_isp.htm"><img src="Camera Roll\istudent.jpg" alt="insta" width="120" height="60" class="center"></a>
+	<a href="https://fskm.uitm.edu.my/v5/index.php/en/"><img src="Camera Roll\fskm.jpg" alt="insta" width="120" height="60" class="center"></a>
    <h2 style="background-image: url('wallpaper.jpg');text-align: center;"><br><br>How may I help you?<span style="font-size: 14px" ><br>+601164147641<br>If you are interested in finding more about me? Click down there!<br><br><a href="file:///C:/Users/amirh/OneDrive/Desktop/RESUME2.html">Reach Me</a></span></h2>
   </div>
  
@@ -320,13 +320,13 @@ function showSlides() {
  <nav>
   <ul class="navlist">
   <li class="navlistitem"><a href="Homepage.html">HOME</a> </li>
-  <li class="navlistitem"><a href="file:///C:/Users/amirh/OneDrive/Desktop/Biography.html">BIOGRAPHY</a></li> 
-  <li class="navlistitem"><a href="file:///C:/Users/amirh/OneDrive/Desktop/RESUME2.html">RESUME</a></li> 
-  <li class="navlistitem"><a href="file:///C:/Users/amirh/OneDrive/Desktop/TIMETABLE.html">TIMETABLE</a></li> 
-  <li class="navlistitem"><a href="file:///C:/Users/amirh/OneDrive/Desktop/GALLERY.html">GALLERIES</a></li> 
-  <li class="navlistitem"><a href="file:///C:/Users/amirh/OneDrive/Desktop/Download.html">DOWNLOAD</a></li> 
-  <li class="navlistitem"><a href="file:///C:/Users/amirh/OneDrive/Desktop/REGISTER.html">REGISTER</a> </li>
-  <li class="navlistitem"><a href="file:///C:/Users/amirh/OneDrive/Desktop/LOG%20IN%20.html">LOG IN</a> </li>
+  <li class="navlistitem"><a href="Biography.html">BIOGRAPHY</a></li> 
+  <li class="navlistitem"><a href="RESUME2.html">RESUME</a></li> 
+  <li class="navlistitem"><a href="TIMETABLE.html">TIMETABLE</a></li> 
+  <li class="navlistitem"><a href="GALLERY.html">GALLERIES</a></li> 
+  <li class="navlistitem"><a href="Download.html">DOWNLOAD</a></li> 
+  <li class="navlistitem"><a href="REGISTER.html">REGISTER</a> </li>
+  <li class="navlistitem"><a href="LOG%20IN%20.html">LOG IN</a> </li>
   <li class="navlistitem" style="text-align: center"><a href="CONTACT MEMBERS.html">LOGOUT</a></li>
   <li class="navlistitem"></li>
  <style>
