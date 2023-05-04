@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Biography - Jane Smith</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #f8f8f8;
+			font-family: 'Open Sans', sans-serif;
+		}
+		header {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 50px 0;
+			background-color: #d2b48c;
+			color: #fff;
+			text-align: center;
+		}
+		header h1 {
+			font-size: 48px;
+			font-weight: 700;
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+		header h2 {
+			font-size: 24px;
+			font-weight: 400;
+			margin-bottom: 20px;
+		}
+		header img {
+			border-radius: 50%;
+			width: 200px;
+			height: 200px;
+			object-fit: cover;
+			object-position: center;
+			border: 5px solid #fff;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+		}
+		section {
+			padding: 50px;
+			text-align: justify;
+		}
+		section h3 {
+			font-size: 36px;
+			font-weight: 700;
+			margin-bottom: 30px;
+			text-align: center;
+		}
+		section p {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+		section p:last-child {
+			margin-bottom: 0;
+		}
+		section a {
+			color: #222;
+			font-weight: 700;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<img src="Camera Roll\muka.jpg" alt="AMIR HAZMI ">
+		<h1>AMIR HAZMI</h1>
+		<h2>SCIENCE COMPUTER STUDENT | WEB DESIGNER | TECH LOVER</h2>
+	</header>
+	<section>
+		<h3>About Me</h3>
+		<P>My name is Amir Hazmi Bin Mohd Yunos and I am unofficially 20 years old.This is my project on web development  on subject (ICT 450).</p>
+		<p>I am a highly motivated computer science student with a passion for programming and technology. I am currently pursuing a degree in computer science hons. (Netcentric Computing)  from Universiti Teknologi Mara (UITM) and my class is CS2512A.I am expect to graduate in the spring of 2026.</p>
+		<p>During my time at University, I have gained a strong foundation in computer science and programming principles. I have experience working with several programming languages including Python, Java, and C++. I have also completed coursework in data structures, algorithms, and computer networks.</p>
+		<p>Aside from my academic pursuits, I enjoy participating in coding competitions and hackathons. I have won several coding competitions and have participated in hackathons organized by leading technology companies such as Google and Microsoft.</p>
+		
+		<p>When I'm not working on MY tech projects, I enjoy my time with my family,friends and my loved ones I'm also love to write a quotes and poem to express my feelings through a word of nature. If you're interested in learning more about my work or just want to chat, feel free to <a href="#">contact me</a>!</p>
+	</section>
+</body>
+</html>

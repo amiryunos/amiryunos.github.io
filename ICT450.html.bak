@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Course Details</title>
+ <style>
+  body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #f2f2f2;
+  }
+  .container {
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #fff;
+   box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+   border-radius: 5px;
+  }
+  h1 {
+   font-size: 30px;
+   text-align: center;
+   margin-bottom: 20px;
+  }
+  p {
+   font-size: 16px;
+   line-height: 1.5;
+   margin-bottom: 10px;
+  }
+  ul {
+   margin-left: 20px;
+   margin-bottom: 10px;
+  }
+  li {
+   font-size: 16px;
+   line-height: 1.5;
+  }
+  .btn {
+   background-color: #4CAF50;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 4px;
+   cursor: pointer;
+   display: inline-block;
+   margin-top: 20px;
+  }
+  .btn:hover {
+   background-color: #3e8e41;
+  }
+ </style>
+</head>
+<body>
+ <div class="container">
+  <h1>Course Details</h1>
+  <p><strong>Course Name:</strong>Databse,Design and Development</p>
+   <p><strong>Course CODE:</strong> ICT450</p>
+  <p><strong>Description:</strong> This course will learn about databse design and development.</p>
+  <p><strong>Instructor:</strong> DR.Nor Aziah binti Daud</p>
+  <p><strong>Email:</strong>nor_aziah@uitm.edu.my</p>
+  <a href="file:///C:/Users/amirh/OneDrive/Desktop/TIMETABLE.html" class="btn">Back</a>
+ </div>
+</body>
+</html>

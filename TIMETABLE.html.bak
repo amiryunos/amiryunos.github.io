@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<style>
+/* time table */
+ table {
+   font-family: "Montserrat", sans-serif;
+   border-collapse: collapse;
+   width: 100%;
+ }
+
+ td, th {
+   border: 1px solid #dddddd;
+   text-align: center;
+   padding: 8px;
+ }
+ /* Set style for timetable button */
+ .timebutton {
+   border: none;
+   background-color: inherit;
+   color: grey;
+   font-family: "Montserrat", sans-serif;
+   cursor: pointer;
+
+</style>
+<table>
+  <tr bgcolor="#645eff">
+    <th bgcolor="#645eff"></th>
+    <th>0800 - 1000</th>
+    <th>1000 - 1200</th>
+    <th>1200 - 1400</th>
+    <th>1400 - 1600</th>
+    <th>1600 - 1800</th>
+  </tr>
+  <tr bgcolor="#FFFFFC">
+    <td bgcolor="#cbf3f0">Monday</td>
+    <td></td>
+    <td bgcolor="#CAFFBF"><a href="ICT450.html"<button class="timebutton" onclick="document.getElementById('it01').style.display='block'" style="width:auto; ">ICT450</button></td>
+    <td></td>
+    <td></td>
+    <td bgcolor="#FFADAD"><a href="MAT421.html"<button class="timebutton" onclick="document.getElementById('it02').style.display='block'" style="width:auto; ">MAT421</button></td>
+  </tr>
+  <tr bgcolor="#FFFFFC">
+    <td bgcolor="#cbf3f0">Tuesday</td>
+    <td bgcolor="#A0C4FF"><a href="CSC574.html"<button class="timebutton" onclick="document.getElementById('it03').style.display='block'" style="width:auto; ">CSC574</button></td>
+    <td bgcolor="#BDB2FF"><a href="CSC520.html"<button class="timebutton" onclick="document.getElementById('it04').style.display='block'" style="width:auto; ">CSC520</button></td>
+    <td></td
+    <td bgcolor="#CAFFBF"><a href="ICT450.html"<button class="timebutton" onclick="document.getElementById('it05').style.display='block'" style="width:auto; ">ICT450</button></td>
+    <td></td>
+  </tr>
+  <tr bgcolor="FFFFFC">
+    <td bgcolor="#cbf3f0">Wednesday</td>
+    <td bgcolor="#A0C4FF"><a href="CSC574.html"<button class="timebutton" onclick="document.getElementById('it06').style.display='block'" style="width:auto; ">CSC574</button></td>
+    <td bgcolor="#FDFFB6"><a href="CSC404.html"<button class="timebutton" onclick="document.getElementById('it07').style.display='block'" style="width:auto; ">CSC404</button></td>
+    <td></td>
+    <td bgcolor="#BDB2FF"><a href="CSC520.html"<button class="timebutton" onclick="document.getElementById('it08').style.display='block'" style="width:auto; ">CSC520</button></td>
+    <td></td>
+  </tr>
+  <tr bgcolor="FFFFFC">
+    <td bgcolor="#cbf3f0">Thursday</td>
+    <td bgcolor="#FFADAD"><a href="MAT421.html"<button class="timebutton" onclick="document.getElementById('it09').style.display='block'" style="width:auto; ">MAT421</button></td>
+    <td></td>
+    <td></td>
+    <td bgcolor="#FFD6A5"><a href="MAT421.html"<button class="timebutton" onclick="document.getElementById('it10').style.display='block'" style="width:auto; ">STA416</button></td>
+    <td></td>
+  </tr>
+  <tr bgcolor="FFFFFC">
+    <td bgcolor="#cbf3f0">Friday</td>
+    <td bgcolor="#FDFFB6"><a href="MAT421.html"<button class="timebutton" onclick="hi" style="width:auto; ">CSC404</button></td>
+    <td bgcolor="#FFD6A5"><a href="MAT421.html"<button class="timebutton" onclick="document.getElementById('it12').style.display='block'" style="width:auto; ">STA416</button></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+</html>

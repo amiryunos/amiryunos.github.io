@@ -1,0 +1,284 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>REGISTER FORM</title>
+ <style>
+ body {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    top: 101px;
+}
+  nav {
+    background-color: #E8E8E8;
+    list-style-type: none;
+    position: fixed;
+    left: 228px;
+    top: 45px;
+}
+    .navlist {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+    .navlistitem {
+    float: left;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+    .navlistitem a {
+    text-decoration: none;
+    display: block;
+    padding-top: 14px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 16px;
+    color: #000000;
+    margin-top: 6px;
+    margin-bottom: 9px;
+}
+    .navlistitem a:active {
+    background-color: #E3E3E3;
+}
+  
+    .navlistitem a:hover {
+    color: #919191;
+}
+button a {
+    color: #000000;
+    text-decoration: none;
+}
+    </style>
+</head>
+
+<body>
+  
+  </ul>
+ </nav>
+        
+<style type="text/css">
+#main .left {
+ width: 1180px;
+ float: left;
+
+ padding: 0px 5px 0 10px;                     /* top , right , bottom , left */
+ 
+}
+</style>
+   
+   
+<div class="left">
+
+    
+    <div class="article">
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
+        <style>
+            .page-title{
+                color:#006633;
+            }
+            /* option:last-child{
+                color:#00cc00;
+                font-weight:bold;
+            } */
+
+            .frm-inpt{
+                width: 100%;
+                padding: 8px 10px;
+                box-sizing: border-box;
+                border:1px solid #006633;
+                border-radius :15px;
+                background: linear-gradient(21deg, #e7ffab, #c9f065)
+            }
+            .frm-inpt:focus{
+                background: linear-gradient(21deg, #e7ffab, #93c01f);
+                border:1px solid #006633;
+            }
+            .row{
+                float: none;
+            }
+            .btn_submit{
+                padding:8px;
+                cursor:pointer;
+                font-size:16px;
+                border-radius:10px;
+                color:black;
+                border:1px solid #006633;
+                background-color:white;
+            }
+            .btn_submit:hover{
+                border:1px solid black;
+                cursor:pointer;
+                font-size:16px;
+                border-radius:10px;
+                color:white;
+                background-color:#006633;
+            }
+            .warning{
+                color:red;
+                background-color: #ffffcc;
+                border-left: 6px solid red;
+                padding:8px;
+                width:250px;
+                border-radius:0 10px 10px 0;
+            }
+            .success{
+                color:green;
+                background-color: #ddffdd;
+                border-left: 6px solid #4CAF50;
+                padding:8px;
+                width:50%;
+            }
+            .red{
+                color:red;
+            }
+            #input_file {
+                width: 100%;
+                padding: 0px;
+                box-sizing: initial;
+                border:0px;
+                background-color: white;
+                border-radius: 0 15px 15px 0;
+            }
+            .select_a{
+                border-radius: 15px 0 0 15px;
+            }
+          
+            .notice{
+                color: rgb(20,147,164);
+
+font-weight: 400;
+                font-family: 'Palatino Linotype';
+                
+            }
+            .notice_p{
+                font-family: 'Quattrocento Sans';
+                text-align: justify;
+                text-justify: inter-word;
+            }
+            #focus_file{
+                color: red;
+                cursor: pointer;
+            }
+
+            @media only screen and (max-width: 768px) {
+                .success{
+                    width:100%;
+                }
+ 
+            }
+        }
+        
+        </style>
+
+        <div class="row_container">
+            <div class="row">
+                <h1 class="page-title">Enquiry Form </h1>            
+                <p id="input_enquiry" class="warning">*Fields are required to fill in.</p>
+            </div>
+        
+            <form enctype="multipart/form-data" method="post" id="contact-form">
+                <div class="row">
+                    <div class="three columns"><label class="frm-title"><span class="red">*</span>First Name</label></div>
+                    <div class="nine columns"><input class="frm-inpt" name="First Name" required></div>
+                </div>
+				<div class="row">
+                    <div class="three columns"><label class="frm-title"><span class="red">*</span>Last Name</label></div>
+                    <div class="nine columns"><input class="frm-inpt" name="Last Name" required></div>
+                </div>
+				<form>
+				<div class="three columns"><label class="frm-title"><span class="red">*</span>Gender</label></div>
+  <input type="radio" id="Male" name="Gender" value="Male">
+  <label for="Male">MALE</label><br>
+  <input type="radio" id="Female" name="Gender" value="Female">
+  <label for="Female">FEMALE</label><br>
+</form>
+				<div class="row">
+                    <div class="three columns"><label class="frm-title"><span class="red">*</span>Address</label></div>
+                    <div class="nine columns"><input class="frm-inpt" name="Address_1" required></div>
+                </div>
+				<div class="row">
+                    <div class="three columns"><label class="frm-title"><span class="red">*</span>Address 2</label></div>
+                    <div class="nine columns"><input class="frm-inpt" name="Address_2" required></div>
+                </div>
+				<div class="row">
+                    <div class="three columns"><label class="frm-title"><span class="red">*</span>City</label></div>
+                    <div class="nine columns"><input class="frm-inpt" name="City" required></div>
+                </div>
+				<div class="row">
+                    <div class="three columns"><label class="frm-title"><span class="red">*</span>State</label></div>
+                    <div class="nine columns"><input class="frm-inpt" name="State" required></div>
+                </div>
+				
+                <div class="row">
+                    <div class="three columns"><label class="frm-title"><span class="red">*</span>Contact Number</label></div>
+                    <div class="nine columns"><input class="frm-inpt" name="Contact_Number" required></div>
+                </div>
+                <div class="row">
+                    <div class="three columns"><label class="frm-title"><span class="red">*</span>Email</label></div>
+                    <div class="nine columns"><input class="frm-inpt" name="Email" required></div>
+				
+                </div>
+				<form>
+				<div class="three columns"><label class="frm-title"><span class="red">*</span>Education level(You can choose more than one)</label></div>
+  <input type="radio" id="SPM" name="SPM" value="SPM">
+  <label for="SPM">SPM</label><br>
+  <input type="radio" id="DIPLOMA" name="DIPLOMA" value="DIPLOMA">
+  <label for="DIPLOMA">DIPLOMA</label><br>
+  <input type="radio" id="DEGREE" name="DEGREE" value="DEGREE">
+  <label for="DEGREE">DEGREE</label><br>
+  <input type="radio" id="MASTER" name="MASTER" value="MASTER">
+  <label for="MASTER">MASTER</label><br>
+  <input type="radio" id="PHD" name="PHD" value="PHD">
+  <label for="PHD">PHD</label><br>
+</form>
+				
+                <div class="row">
+                    <div class="three columns"><label class="frm-title">Username</label></div>
+                    <div class="nine columns"><input class="frm-inpt" name="Username"></div>
+                </div>
+                 <div class="row">
+                    <div class="three columns"><label class="frm-title">Password</label></div>
+                    <div class="nine columns"><input class="frm-inpt" name="Password"></div>
+                </div>
+                <div class="row">
+                    <div class="three columns"><label class="frm-title">Re-enter password</label></div>
+                    <div class="nine columns"><input class="frm-inpt" name="Re-enter password"></div>
+                </div>
+              <div class="row">   
+                    <div class="three columns push_three"> </div>          
+                </div>
+            </form>
+          <div class="row">
+     <div class="three columns push_three"><button>
+                      <a href="page submit.html">Submit</a> </button>
+					  <button><a href="page clear.html">Clear</button>
+                    </div>          
+            <h2></h2><br/>  
+          </div>
+        </div>
+<script>
+   function onSubmit(token) {
+     document.getElementById("contact-form").submit();
+   }
+ </script>
+ </div>
+</div>
+   <br style="clear:both" />
+  </div>
+
+
+
+<div style='clear:both'></div></div>
+
+
+<div class="footer full footer_style4"><div class="info"> 
+  <div class="info-inner"><div class="info-inner-left">&copy; 2017 - 2023 <strong>AMIR HAZMI</strong>  |<div class="info-inner-right"><span class="poweredby"><b>Powered by</b> <a href="file:///C:/Users/amirh/OneDrive/Desktop/HOMEPAGE.html" target="_blank">AMIRHAZMI</a></span></div></div>   </div> 
+  </div>
+</body>
+</html>
+

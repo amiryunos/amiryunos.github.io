@@ -1,0 +1,355 @@
+<!doctype html>
+<html
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>AMIR HAZMI</title>
+<link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
+ <style>
+body {
+  background-image: url('lanscape.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+nav {
+    background-color: #E8E8E8;
+    list-style-type: none;
+    position: fixed;
+    left: 228px;
+    top: 45px;
+}
+    .navlist {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+    .navlistitem {
+    float: left;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+    .navlistitem a {
+    text-decoration: none;
+    display: block;
+    padding-top: 14px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 16px;
+    color: #000000;
+    margin-top: 6px;
+    margin-bottom: 9px;
+}
+    .navlistitem a:active {
+    background-color: #E3E3E3;
+}
+  
+    .navlistitem a:hover {
+    color: #919191;
+}
+    .container {
+    background-color: #EEEEEE;
+    position: static;
+    height: 545px;
+}
+.container a {
+    color: #000000;
+    text-decoration: none;
+}
+.container a:active {
+    color: #9B9B9B;
+}
+  * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {
+    display: none;
+    height: 0%;
+}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 2000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.text {
+}
+    body h1 {
+    position: absolute;
+    top: 318px;
+    left: 92px;
+    color: #EFEFEF;
+    text-shadow: 2px 1px #000000;
+}
+    body h3 {
+    position: absolute;
+    top: 421px;
+    left: 125px;
+    border-style: solid;
+    border-color: #CFCFCF;
+    color: #D6D6D6;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 23px;
+    text-shadow: 2px 1px #000000;
+    text-decoration: none;
+}
+    body h3 a {
+    text-decoration: none;
+    color: #C2C2C2;
+}
+  * {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+    .row {
+}
+    .row .column img {
+    position: absolute;
+    left: 132px;
+}
+    body h2 {
+}
+  * {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: ;
+  width: 50%;
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+    .row {
+}
+    .row .column img {
+    position: absolute;
+    left: 132px;
+}
+    div img {
+    position: static;
+}
+    div p a {
+    text-decoration: none;
+    color: #000000;
+}
+    .container a:hover {
+    color: #A0A0A0;
+}
+    .container h2 {
+    height: 228px;
+}
+    .container {
+}
+    .container h2 a {
+    color: #FFFFFF;
+    display: block;
+    border-style: solid;
+    width: 120px;
+    position: absolute;
+    left: 680px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  .center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+</style>
+ <link href="Page.css" rel="stylesheet" type="text/css">
+<title>Homepage</title>
+</head>
+
+<body>
+<img src="C:\Users\amirh\OneDrive\Pictures\Camera Roll\amirlogo2.jpg" alt="logo" width="70" height="60">
+ <a href="https://instagram.com/amrhzmi?igshid=YmMyMTA2M2Y="><img src="C:\Users\amirh\OneDrive\Pictures\Camera Roll\instabeige.jpg" alt="insta" width="70" height="60"></a>
+ <a href="https://www.facebook.com/amir.hazmi.12?mibextid=LQQJ4d"><img src="C:\Users\amirh\OneDrive\Pictures\Camera Roll\facebook.jpg" alt="fb" width="70" height="60"></a>
+ <div class="slideshow-container">
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="C:\Users\amirh\OneDrive\Pictures\Camera Roll\pic1.jpg"alt="Profilepic" style="width:100%;height:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="C:\Users\amirh\OneDrive\Pictures\Camera Roll\pic3.jpg" alt="pic 3" style="width:100%;height:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="C:\Users\amirh\OneDrive\Pictures\Camera Roll\pic2.jpg" alt="pic 2" style="width:100%;height:100%">
+  <div class="text"></div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+</script>
+  <h1 style="background-color: transparent">THIS IS,<br>AMIR HAZMI</h1>
+     <h3 style="background-color: transparent">WELCOME TO MY PAGE!</a></h3>
+ <div class="row" style="background-color: white">
+  <div class="column">
+   </div>
+  <div class="column">
+   <br><br><h2>My <span style="color:khaki">Vision</span></h2>
+   <p>To be such an innovative person and achieve all my goals to successfulness.</p>
+   <br><h2>My <span style="color:khaki">Mission</span></h2>
+   <p>To achieve my career as a front-end developer in a big 3 company in the world.</p>
+  </div>
+</div>
+<h2 style="background-color: transparent;text-align: center"><span style="color: black">"The Art"</span></h2>
+ 
+<div class="container"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="C:\Users\amirh\OneDrive\Pictures\Camera Roll\wallpaper.jpg" alt="stone" width ="1800"><p style="text-align: center"><a href="file:///C:/Users/amirh/OneDrive/Desktop/Biography.html">MORE ABOUT ME</a></p>
+    <a href="https://www.uitm.edu.my/index.php/en"><img src="C:\Users\amirh\OneDrive\Pictures\Camera Roll\uitmlogo.jpg" alt="insta" width="70" height="60" class="center"></a>
+	<a href="https://istudent.uitm.edu.my/index_isp.htm"><img src="C:\Users\amirh\OneDrive\Pictures\Camera Roll\istudent.jpg" alt="insta" width="120" height="60" class="center"></a>
+	<a href="https://fskm.uitm.edu.my/v5/index.php/en/"><img src="C:\Users\amirh\OneDrive\Pictures\Camera Roll\fskm.jpg" alt="insta" width="120" height="60" class="center"></a>
+   <h2 style="background-image: url('wallpaper.jpg');text-align: center;"><br><br>How may I help you?<span style="font-size: 14px" ><br>+601164147641<br>If you are interested in finding more about me? Click down there!<br><br><a href="file:///C:/Users/amirh/OneDrive/Desktop/RESUME2.html">Reach Me</a></span></h2>
+  </div>
+ 
+ 
+ 
+ 
+ <nav>
+  <ul class="navlist">
+  <li class="navlistitem"><a href="Homepage.html">HOME</a> </li>
+  <li class="navlistitem"><a href="file:///C:/Users/amirh/OneDrive/Desktop/Biography.html">BIOGRAPHY</a></li> 
+  <li class="navlistitem"><a href="file:///C:/Users/amirh/OneDrive/Desktop/RESUME2.html">RESUME</a></li> 
+  <li class="navlistitem"><a href="file:///C:/Users/amirh/OneDrive/Desktop/TIMETABLE.html">TIMETABLE</a></li> 
+  <li class="navlistitem"><a href="file:///C:/Users/amirh/OneDrive/Desktop/GALLERY.html">GALLERIES</a></li> 
+  <li class="navlistitem"><a href="file:///C:/Users/amirh/OneDrive/Desktop/Download.html">DOWNLOAD</a></li> 
+  <li class="navlistitem"><a href="file:///C:/Users/amirh/OneDrive/Desktop/REGISTER.html">REGISTER</a> </li>
+  <li class="navlistitem"><a href="file:///C:/Users/amirh/OneDrive/Desktop/LOG%20IN%20.html">LOG IN</a> </li>
+  <li class="navlistitem" style="text-align: center"><a href="CONTACT MEMBERS.html">LOGOUT</a></li>
+  <li class="navlistitem"></li>
+ <style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;}
+	
+	.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+<a href="https://instagram.com/amrhzmi?igshid=YmMyMTA2M2Y=" class="fa fa-instagram"></a>
+</style>
+  </ul>
+ </nav>
+ </body>
+</html>
